@@ -1,0 +1,183 @@
+@font-face {
+    font-family: 'ulan';
+    src:
+        url('Kablammo-Regular.ttf')
+    }
+    body {
+            background-color: #F1EDE3;
+    }
+  
+    .vhod {
+        background-color: aquamarine;
+    }
+    .sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 250px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #3D3D64; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+    }
+    .sidenav a {
+    display: inline-block;
+    transition: transform 0.3s ease;
+    display: block;
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 35px;
+    color: #F1EDE3;
+    display: block;
+    font-family: 'ulan';
+    }
+    .sidenav a:hover { 
+        transform: scale(1.2);
+    }
+
+    .fot {
+        height: 100px;
+        margin-left: 10px;
+    }
+    .ulan {
+        position: relative;
+        top:10px;
+        left:10px
+    }
+    .fotka {
+        height: 800px;
+        bottom: 0;
+        position: absolute;
+        right: 100px;
+        height: 550px;
+    }
+
+    .nazvanie h1{
+        text-align: center;
+        font-size: 60px;
+        font-family: 'ulan';
+        color:#3D3D64;
+    }
+    .nazvanie {
+        position: relative;
+        top: -43px;
+        
+    }
+    .nazvanie h2 {
+        margin-top: 0px;
+        text-align: center;
+        font-size: 60px;
+        font-family: 'ulan';
+        color:#3D3D64;
+    }
+    .kor {
+        text-align: center;
+        font-family: 'ulan';
+        font-size: 40px;
+        text-align: start;
+        color:#3D3D64;
+    }
+    .lor {
+        position: relative;
+        top:100px;
+        margin-left: 400px;
+        width: 400px;
+    }
+    table, td, tr{
+        border: 3px solid ;
+        border-collapse: collapse;
+        border-color: #3D3D64;
+        width: 100px;
+    }
+
+    .cats { 
+        width: 1000px;
+        position: relative;
+        left: 450px;
+    }
+    .tbpic {
+        height: 150px;
+    }
+    .yach1 {
+        width: 700px;
+        font-family: ulan;
+        font-size: 23px;
+        color:#3D3D64;
+    }
+    .formi {
+        position: relative;
+        left: 400px;
+        font-family: ulan;
+        font-size: 30px;
+
+    }
+    input {
+        height: 30px;
+        font-family: ulan;
+        font-size: 25px;
+    }
+    .bt {
+        height: 30px;
+        font-family: ulan;
+        font-size: 25px;
+        font-style: normal;
+        text-align: center;
+    }
+
+.auth_block {
+    position: relative;
+    left: 30    px;
+    top: 250px;
+}
+body {
+    background-color: #F1EDE3;
+}
+.auth_block a{
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 35px;
+    color: #000000;
+    display: block;
+    font-family: 'ulan';
+    text-align: center;
+}
+.regpic {
+    height: 100px;
+    position: relative;
+    left: 700px;
+    
+}
+.form_otziv {
+    position: relative;
+    left: 500px;
+    font-family: 'ulan';
+    font-size: 30px;
+    color:#3D3D64;
+}
+.form_otziv textarea{
+    font-family: 'ulan';
+    font-size: 20px;
+    color:#3D3D64;
+}
+.otzivy_posm {
+    position: relative;
+    left: 500px;
+    font-family: 'ulan';
+    font-size: 30px;
+    color:#3D3D64;
+}
+
+.reg {
+    position: fixed;
+    top:100px;
+    left: 600px;
+    font-family: 'ulan';
+    font-size: 25px;
+}
+.btn_reg {
+    background-color: #3D3D64;
+    color:#F1EDE3;
+}
+
+
